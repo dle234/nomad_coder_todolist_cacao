@@ -1,0 +1,210 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    font-family: 'Outfit', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.left {
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(200, 219, 235);
+}
+
+.Box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBox {
+    margin-left: 3%;
+    padding: 5%;
+
+}
+
+.shadow {
+    box-shadow: 0px 10px 10px 5px hsla(214, 18%, 85%, 0.572);
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.rightBox {
+    width: 40%;
+    height: 70%;
+    margin-left: 3%;
+    background-color: #ffee00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todo {
+    width: 100%;
+    height: 10%;
+    padding: 0;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.todo input {
+    width: 90%;
+
+    border: 0;
+    padding: 3%;
+
+}
+
+.todo input:focus {
+    outline: none;
+}
+
+.todo input::placeholder {
+    color: rgb(184, 184, 184);
+}
+
+
+.todo button {
+    color: rgb(125, 125, 125);
+    border: 0;
+
+}
+
+
+.userInput:focus {
+    outline: none;
+}
+
+.icon i {
+    background-color: rgba(133, 159, 243, 0.566);
+    padding: 3%;
+    border-radius: 43%;
+    color: rgba(234, 239, 255, 0.598);
+}
+
+.userInput {
+    background-color: rgb(200, 219, 235);
+    border: 0;
+    margin-left: 3%;
+}
+
+.displayNone {
+    display: none;
+}
+
+.icon {
+    display: flex;
+}
+
+.cap {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.tag {
+    background-color: rgba(88, 104, 163, 0.481);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.tag:hover {
+    background-color: rgba(88, 104, 163, 0.735);
+}
+
+.cacaotalk {
+    font-size: 1rem;
+    display: flex;
+    background-color: #ffee00;
+    height: auto;
+    width: 22vw;
+    border-radius: 0.3rem;
+    margin-top: 4vh;
+    padding: 2vh 1vw 3vh 1vw;
+
+    flex-wrap: wrap;
+    box-shadow: 0px 1px 1px 1px hsla(210, 4%, 70%, 0.572);
+
+
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column;
+
+    overflow: scroll;
+    padding: 0vh 1vw 2vh 2vw;
+}
+
+.delete {
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1vw;
+
+}
+
+.time {
+    font-size: 3rem;
+
+}
+
+.saying {
+    background-color: #3A1D1D;
+    width: 28vw;
+    height: 40vh;
+    border-radius: 50%;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+
+
+}
+
+.tail::after {
+    content: '';
+    position: relative;
+    bottom: 7vh;
+    right: 6vw;
+
+    width: 0;
+    height: 0;
+    border: 65px solid transparent;
+    border-top-color: #3A1D1D;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.saying p:first-child {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+}
+
+.saying p:last-child {
+    color: #ffee00;
+    font-size: 1rem;
+    position: relative;
+    left: 3vw;
+
+}
+
+.saying p {
+    position: relative;
+    top: 3vh;
+}
